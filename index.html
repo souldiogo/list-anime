@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Animes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>MY LIST ANIME</h1>
+    </header>
+
+    <div class="top-content">
+        <div class="left-panel">
+            <section class="filters">
+                <a href="index.html" class="filter-option active">Tudo (71)</a>
+                <a href="completed.html" class="filter-option">Completo (32)</a>
+                <a href="on-hold.html" class="filter-option">Em Espera (01)</a>
+                <a href="#" class="filter-option">Planejar Assistir (12)</a>
+            </section>
+
+            <div class="anime-carousel">
+                <div class="anime-list" id="anime-list"></div>
+            </div>
+        </div>
+
+        <aside class="stats-card">
+            <section class="stats-section">
+                <h2>MY STATS</h2>
+                <ul class="stats-list">
+                    <li><span>Total Time:</span> <strong>48d14h</strong></li>
+                    <li><span>Total Anime:</span> <strong>315</strong></li>
+                    <li><span>Mean Score:</span> <strong>8.5</strong></li>
+                    <li><span>Days Watching:</span> <strong>11.2</strong></li>
+                    <li><span>Completed:</span> <strong>218</strong></li>
+                </ul>
+            </section>
+
+            <section class="stats-section">
+                <h2>RECENT UPDATE</h2>
+                <div class="update-item">
+                    <span class="status">Continued:</span>
+                    <p class="title">Solo leveling Ep.14</p>
+                    <span class="time">(1d ago)</span>
+                </div>
+                <div class="update-item">
+                    <span class="status">Completed:</span>
+                    <p class="title">Demon Slayer S3</p>
+                    <span class="time">(3d ago)</span>
+                </div>
+            </section>
+        </aside>
+    </div>
+    <div class="filter-divider"></div>
+
+    <script src="anime-data.js"></script>
+</body>
+</html>
