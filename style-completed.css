@@ -4,11 +4,11 @@
 }
 
 html, body {
-    height: 100%;
+    min-height: 100%;
     width: 100%;
-    background-color: #1b1d1d;
-    font-family: Arial, sans-serif;
+    background-color: rgba(24, 3, 6, 0.836);
 }
+
 
 .top-content {
     display: flex;
@@ -30,12 +30,14 @@ html, body {
     display: inline-flex;
     flex-wrap: wrap;
     gap: 10px;
-    padding: 10px 16px;
+    padding: 8px;
     width: fit-content;
-    border: 1px solid rgba(255,255,255,0.15);
-    border-radius: 999px;
-    background: rgba(255,255,255,0.05);
-    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+    margin-left: 70px;
+    border: 1px solid rgba(66, 18, 18, 0.589);
+    border-radius: 18px;
+    background-color: rgb(43, 5, 5);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.952);
+    align-items: flex-start;
 }
 
 .filter-option {
@@ -49,13 +51,13 @@ html, body {
 }
 
 .filter-option:hover {
-    background-color: rgba(255,255,255,0.12);
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .filter-option.active {
-    background: linear-gradient(90deg, #4f8f8a, #74c7b9);
+    background-color: rgba(34, 18, 18, 0);
     color: #fff;
-    box-shadow: 0 6px 16px rgba(79,143,138,0.28);
+    box-shadow: 0 4px 10px rgba(215, 231, 229, 0.596);
 }
 
 .anime-carousel {
