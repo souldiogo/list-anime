@@ -8,8 +8,9 @@
 
 html, body {
     min-height: 100%;
-    width: 100%;
+    min-width: 100%;
     background-color: rgba(24, 3, 6, 0.836);
+    overflow-x: hidden;
 }
 
 
