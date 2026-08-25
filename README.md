@@ -9,7 +9,7 @@
 
 ##  **MINHA LISTA DE ANIME**
 
-**Primeiro site que construir  quando comecei estudar HTML, CSS e JAVASCRIPT**
+**Meu primeiro site desenvolvido no início dos meus estudos de HTML, CSS e JAVASCRIPT**
 
 **Deixe seu feedback**
 ---
