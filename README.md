@@ -6,7 +6,6 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript"/>
   <img src="https://img.shields.io/badge/Responsive-✅-success?style=flat" alt="Responsive"/>
 </div>
----
 
 ##  **MINHA LISTA DE ANIME**
 
